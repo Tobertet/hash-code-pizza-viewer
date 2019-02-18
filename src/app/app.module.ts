@@ -4,7 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { DataSetsService } from './data-sets.service';
+import { ExecutionService } from './execution.service';
 import { AppGridCellComponent } from './grid-cell/app-grid-cell.component';
+import { GridService } from './grid.service';
 
 @NgModule({
   declarations: [AppComponent, AppGridCellComponent],
@@ -15,7 +18,7 @@ import { AppGridCellComponent } from './grid-cell/app-grid-cell.component';
     MatButtonModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [ExecutionService, DataSetsService, GridService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
