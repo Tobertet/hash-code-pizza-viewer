@@ -33,7 +33,7 @@ export class ExecutionService {
 
   start() {
     this._state = ExecutionStates.STARTED;
-    interval(1500)
+    interval(1000)
       .pipe(
         startWith(1),
         takeUntil(this._executionStopper.asObservable()),

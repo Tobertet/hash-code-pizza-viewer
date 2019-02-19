@@ -1,27 +1,23 @@
-# HashCodePizzaViewer
+# Hash Code 19 Pizza Viewer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+Sometimes, it's way too hard to keep in our mind all the possibilities and paths an algorithm is taking. The Hash Code 2019 Practice Problem is a good example.
 
-## Development server
+https://hashcodejudge.withgoogle.com/#/home
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This pizza viewer tries to help people to better understand what the provided solution is doing, because sometimes improvements are easier to find when using a visual tool.
 
-## Code scaffolding
+## Example Problem
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![](assets/example.gif)
 
-## Build
+## Online Version
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+TBD
 
-## Running unit tests
+## Running Locally
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clone the repo, go to the root of the project and run npm start. You will need npm and the angular CLI installed globally.
 
-## Running end-to-end tests
+## Contributing
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Just make a PR with anything you wanted to add.
