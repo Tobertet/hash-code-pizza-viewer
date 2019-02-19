@@ -1,16 +1,16 @@
 <div
-  [@cut]="cell.isCut"
+  [@cut]="cell?.isCut"
   [style.background]="cell?.ingredient === 'T' ? '#FF000055' : '#33333333'"
-  [style.border-top]="cell.hasBorderTop ? '4px solid blue' : '1px solid black'"
+  [style.border-top]="cell?.hasBorderTop ? '4px solid blue' : '1px solid black'"
   [style.border-left]="
-    cell.hasBorderLeft ? '4px solid blue' : '1px solid black'
+    cell?.hasBorderLeft ? '4px solid blue' : '1px solid black'
   "
   [style.border-bottom]="
-    cell.hasBorderBottom ? '4px solid blue' : '1px solid black'
+    cell?.hasBorderBottom ? '4px solid blue' : '1px solid black'
   "
   [style.border-right]="
-    cell.hasBorderRight ? '4px solid blue' : '1px solid black'
+    cell?.hasBorderRight ? '4px solid blue' : '1px solid black'
   "
 >
-  <span *ngIf="shouldDisplayText">{{ cell.ingredient }}</span>
+  <span *ngIf="shouldDisplayText">{{ cell?.ingredient }}</span>
 </div>

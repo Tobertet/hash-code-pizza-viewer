@@ -1,18 +1,12 @@
 # Hash Code 19 Pizza Viewer
 
-Sometimes, it's way too hard to keep in our mind all the possibilities and paths an algorithm is taking. The Hash Code 2019 Practice Problem is a good example.
+Sometimes, it's way too hard to keep in our mind all the possibilities and paths an algorithm is taking. [The Hash Code 2019 Practice Problem](https://hashcodejudge.withgoogle.com/#/home) is a good example.
 
-https://hashcodejudge.withgoogle.com/#/home
-
-This pizza viewer tries to help people to better understand what the provided solution is doing, because sometimes improvements are easier to find when using a visual tool.
+This pizza viewer tries to help people to better understand what the provided solution is doing, because sometimes improvements are easier to find when using a visual tool. You can use it online [here](https://tobertet.github.io/hash-code-19-pizza-viewer/).
 
 ## Example Problem
 
 ![](assets/example.gif)
-
-## Online Version
-
-TBD
 
 ## Running Locally
 
